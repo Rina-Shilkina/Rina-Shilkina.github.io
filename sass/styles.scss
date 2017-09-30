@@ -116,7 +116,7 @@ body {
 }
 
 .text_h2_en {
-  font-size: 1.3em !important;
+  font-size: 1.2em !important;
 
 }
 
@@ -216,7 +216,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  padding-right: 18px;
+  padding-right: 1.5%;
 
   border-right: 2px solid $color-vertical-line;
 }
@@ -319,27 +319,30 @@ margin-top: 30px;
 
 @media screen and (max-width: 960px) {
   .first__line {
-    width: 100% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
   }
   .second__line {
-    width: 100% !important;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
   }
   .first__line-first {
+    width: 100% !important;
     padding-bottom: 30px;
+    justify-content: space-around;
   }
   .first__line-first:last-child {
     padding-bottom: 0 !important;
   }
   .second__line-first {
+    width: 100% !important;
     padding-bottom: 30px;
+    justify-content: space-around;
   }
   .second__line-first:last-child {
     padding-bottom: 0 !important;
