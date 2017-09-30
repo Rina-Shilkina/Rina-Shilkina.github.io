@@ -1,0 +1,345 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=cyrillic");
+/* -- общие переменные --*/
+html {
+  font-size: 100%; }
+
+body {
+  background-color: white;
+  margin: 0; }
+
+.language {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #3c3c3c; }
+
+.language__item {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0; }
+
+.language__list {
+  list-style-type: none;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #a6894a;
+  margin-right: 10px; }
+
+.language__href {
+  font-family: "Alegreya Sans SC", sans-serif, bold;
+  font-size: 1em;
+  text-decoration: none;
+  color: #a6894a; }
+
+/*          --    header    --           */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #3c3c3c; }
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.header__name {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 3em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d2d2d2;
+  border: 3.5px solid #a6894a;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 50px auto 10px; }
+
+.header__specialty {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d2d2d2;
+  margin-bottom: 15px; }
+
+.header__reference {
+  width: 100%; }
+
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0; }
+
+.menu__list {
+  list-style-type: none;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #d2d2d2;
+  margin-bottom: 20px; }
+
+.menu__href {
+  font-family: "Alegreya Sans SC", sans-serif, bold;
+  font-size: 1em;
+  text-decoration: none;
+  color: #d2d2d2; }
+
+.icon {
+  font-size: 1em !important;
+  color: #a6894a;
+  padding-right: 3px; }
+
+/*          --    information    --           */
+.information {
+  width: 70%;
+  margin: 0 auto; }
+
+.information__content {
+  display: flex;
+  flex-direction: column; }
+
+/*          --    first-block    --           */
+.first-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+.left-block {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 18px;
+  border-right: 2px solid #756767; }
+
+.section__header {
+  display: flex;
+  flex-direction: column; }
+
+.horizontal-line {
+  width: 100%;
+  background-color: #a6894a;
+  height: 2px;
+  padding: 0; }
+
+.header_text {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; }
+
+.style {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #a6894a;
+  padding: 0;
+  margin: 0 0px 5px; }
+
+.about-us__content {
+  display: flex; }
+
+.about-us__item {
+  padding: 0;
+  padding-right: 15px !important; }
+
+.about-us__first-col {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+.about-us__last-col {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+.right-block {
+  width: 55%;
+  display: flex;
+  flex-direction: column; }
+
+/*          --    second-block    --           */
+.second-block {
+  margin-top: 30px; }
+
+.skill__content {
+  margin-top: 30px; }
+
+.first__line {
+  display: flex;
+  justify-content: space-around; }
+
+.second__line {
+  display: flex;
+  justify-content: space-around; }
+
+.first__line-first {
+  width: 50%;
+  display: flex;
+  justify-content: space-around; }
+
+.second__line-first {
+  width: 50%;
+  display: flex;
+  justify-content: space-around; }
+
+.skill__list {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+.icon {
+  margin-bottom: 10px; }
+
+.icon_img {
+  width: 100px; }
+
+.level {
+  display: flex; }
+
+.level__know {
+  font-size: 1em !important;
+  color: #a6894a;
+  border-color: #3c3c3c;
+  padding-right: 3px; }
+
+.level__unknow {
+  font-size: 1em !important;
+  border-color: #3c3c3c;
+  padding-right: 3px; }
+
+.skill__content {
+  display: flex;
+  flex-direction: column; }
+
+/*          --    third-block    --           */
+.third-block {
+  margin-top: 30px; }
+
+.study__content {
+  margin-top: 30px; }
+
+.study__content {
+  display: flex;
+  justify-content: space-around; }
+
+.study-resours__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0; }
+
+.study-resours__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px; }
+
+.study-resours__list:last-child {
+  margin-bottom: 0 !important; }
+
+.resours__left {
+  width: 100px;
+  margin-right: 100px; }
+
+.resours__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.resours__autor {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+.resours__name {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+/*          --    fourth-block    --           */
+.fourth-block {
+  margin-top: 30px; }
+
+.link__content {
+  display: flex;
+  flex-direction: column; }
+
+.link__item {
+  padding: 0; }
+
+.link__list {
+  list-style-type: none; }
+
+.link__list:first-child {
+  padding-bottom: 15px; }
+
+.link-name__list {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+/*          --    fifth-block    --           */
+.fifth-block {
+  margin: 30px 0 80px 0; }
+
+.interests__item {
+  padding: 0;
+  display: flex;
+  justify-content: space-between; }
+
+.interests__list {
+  list-style-type: none; }
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3c3c3c; }
+
+.interests__img {
+  width: 30%;
+  margin-bottom: 3%; }
+
+/*# sourceMappingURL=styles.css.map */
