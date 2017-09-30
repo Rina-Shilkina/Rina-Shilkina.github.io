@@ -41,7 +41,6 @@ body {
   display: flex;
   justify-content: flex-end;
 
-
   background-color: #3c3c3c;
 }
 
@@ -110,6 +109,15 @@ body {
 
   padding: 10px;
   margin: 50px auto 10px;
+}
+
+.header__name_en {
+  font-size: 3.7em !important;
+}
+
+.text_h2_en {
+  font-size: 1.3em !important;
+
 }
 
 .header__specialty {
@@ -186,6 +194,23 @@ body {
 
   margin-top: 50px;
 }
+
+@media screen and (max-width: 1100px) {
+  .first-block {
+    flex-direction: column;
+  }
+  .left-block {
+    width: 100% !important;
+
+    border-right: 0 !important;
+  }
+  .right-block {
+    width: 100% !important;
+  }
+}
+
+
+
 .left-block {
   width: 40%;
   display: flex;
@@ -208,7 +233,6 @@ body {
   padding: 0;
 }
 
-
 .header_text {
   width: auto;
   display: flex;
@@ -228,8 +252,6 @@ body {
   margin: 0 0px 5px;
 }
 
-
-
 .about-us__content {
   display: flex;
 }
@@ -237,7 +259,6 @@ body {
 .about-us__item {
   padding: 0;
   padding-right: 15px !important;
-
 }
 
 .about-us__first-col {
@@ -269,7 +290,12 @@ body {
   flex-direction: column;
 }
 
+
+
 /*          --    second-block    --           */
+
+
+
 
 .second-block {
   margin-top: 30px;
@@ -282,12 +308,44 @@ margin-top: 30px;
 .first__line {
   display: flex;
   justify-content: space-around;
+  padding: 0;
 }
 
 .second__line {
   display: flex;
   justify-content: space-around;
+  padding: 0;
 }
+
+@media screen and (max-width: 960px) {
+  .first__line {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .second__line {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .first__line-first {
+    padding-bottom: 30px;
+  }
+  .first__line-first:last-child {
+    padding-bottom: 0 !important;
+  }
+  .second__line-first {
+    padding-bottom: 30px;
+  }
+  .second__line-first:last-child {
+    padding-bottom: 0 !important;
+  }
+}
+
 
 .first__line-first {
   width: 50%;
@@ -345,6 +403,9 @@ margin-top: 30px;
 
 
 /*          --    third-block    --           */
+
+
+
 
 .third-block {
   margin-top: 30px;
@@ -418,6 +479,7 @@ margin-top: 30px;
 /*          --    fourth-block    --           */
 
 
+
 .fourth-block {
   margin-top: 30px;
 }
@@ -449,7 +511,6 @@ margin-top: 30px;
   text-decoration: none;
   color: $color-text-h2;
 }
-
 
 
 
